@@ -1,0 +1,26 @@
+READ ME UPSTREAM
+wrote by JAY B @ github.com/JayB-Kayode
+
+this is a script to add a new remote Upstream so that you can 
+pull new changes from the repository to your computer
+and also helps you to pull new changes 
+
+IMPORTANT NOTE:
+1. you have to make sure you are in the
+ repository you want to use upstream before you run it
+
+
+
+INSTAlL:
+
+1. make sure the script has a execute enable(X) 
+    type: ls -l .sh  (.sh for bash shell script)
+    type: chmod +x addUpstream.sh
+
+2. then move it into the bin path 
+    you can simply do that by creating a folder called bin 
+    into your /home directory 
+    and put the script into /home/bin
+3. to run the script simply type the name of the sript
+    anywhere on the terminal 
+        example: addUpstream.sh
