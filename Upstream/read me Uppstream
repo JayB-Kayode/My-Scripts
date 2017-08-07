@@ -14,7 +14,7 @@ IMPORTANT NOTE:
 INSTAlL:
 
 1. make sure the script has a execute enable(X) 
-    type: ls -l .sh  (.sh for bash shell script)
+    type: ls -l *.sh  (.sh for bash shell script)
     type: chmod +x addUpstream.sh
 
 2. then move it into the bin path 
