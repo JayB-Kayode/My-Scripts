@@ -1,0 +1,15 @@
+WHERE TO PLACE SCRIPT  to runthem ant=ywhere in the shell 
+type echo $PATH 
+    anywhere you place it on that path it will work
+
+1. make sure the script has a execute enable(X) 
+    type: ls -l .sh  (.sh for bash shell script)
+    type: chmod +x name_of_Your_script
+
+2. then move it into the bin path 
+    you can simply do that by creating a folder called bin 
+    into your /home directory 
+    and put the script into /home/bin
+3. to run the script simply type the name of the sript
+    anywhere on the terminal 
+        example:  myscript.sh 
