@@ -14,6 +14,7 @@ alias gc='git commit'
 alias gp='git push'
 alias gs='git status'
 alias gl='git log'
+alias ga='git add'
 
 #this function is to do an automated "ls" everytime i do a "cd" command
 function cd {
