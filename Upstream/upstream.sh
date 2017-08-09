@@ -9,11 +9,11 @@ echo ..........
 echo ..........
 # -z check if a string/output is empty or not. -n is the oposit of -z
 # if is not empty or not ...
-if [[ -z $(grep upstream .git/config) ]] then
+if [[ -z $(grep upstream .git/config) ]]; then
     echo ....no upstream found! you can add one!
     ## Add remote upstream from a git repository
     echo ..........
-    echo Create a new  remote Upstream ? (y/n)
+    echo 'Create a new  remote Upstream ? (y/n)'
     read ans1
     if [[$ans1 == "y"]]; then
         echo Please Enter the remote url:
@@ -56,7 +56,7 @@ else
     echo 'do you want to pull changes from main repository if there is ?(y/n)'
     read ans2
     #pulling new data from remote upstream
-    if [[$ans2 == "y"]] then 
+    if [[$ans2 == "y"]]; then 
         echo ..... pulling data from upstream
         echo ..........
         echo ..........
