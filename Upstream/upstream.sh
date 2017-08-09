@@ -15,7 +15,7 @@ if [[ -z $(grep upstream .git/config) ]]; then
     echo ..........
     echo 'Create a new  remote Upstream ? (y/n)'
     read ans1
-    if [[$ans1 == "y"]]; then
+    if [[ $ans1 == "y" ]]; then
         echo Please Enter the remote url:
         read url
         echo ..........
