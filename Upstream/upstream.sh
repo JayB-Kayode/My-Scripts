@@ -56,7 +56,7 @@ else
     echo 'do you want to pull changes from main repository if there is ?(y/n)'
     read ans2
     #pulling new data from remote upstream
-    if [[$ans2 == "y"]]; then 
+    if [[ $ans2 == "y" ]]; then 
         echo ..... pulling data from upstream
         echo ..........
         echo ..........
