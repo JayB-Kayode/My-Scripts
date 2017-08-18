@@ -7,15 +7,15 @@ echo ----------------
 #swicthing to root privileges 
 echo 'do you want/need to continue with root priveleges ? (y/n)'
 echo ----------------
-read pivi 
+read privi 
 echo ----------------
 if [[ $privi == "y" ]]; then
     echo enter your root password
     echo ----------------
-    #sudo
-    echo You now have root privileges 
+    su -c "echo You now have root privileges; \
     echo 'please be carefull with whatever action you do
-     under root privileges'  
+     under root privileges'" -l
+      
 fi
 
 
